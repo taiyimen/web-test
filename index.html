@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>AI Agent Chat</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="chat-container">
+
+    <div class="chat-header">
+        AI 智能体
+    </div>
+
+    <div id="chat-box" class="chat-box">
+    </div>
+
+    <div class="input-area">
+        <input 
+            id="user-input" 
+            type="text" 
+            placeholder="请输入问题..."
+            onkeydown="handleKey(event)"
+        >
+        <button onclick="sendMessage()">发送</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
