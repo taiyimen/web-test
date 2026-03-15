@@ -1,4 +1,4 @@
-const API_URL = "http://10.134.153.134:8000/chat"; 
+const API_URL = "http://8.136.205.235:8000"; 
 
 
 function addMessage(text, sender){
